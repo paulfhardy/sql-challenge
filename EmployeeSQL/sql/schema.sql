@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS titles
 CREATE TABLE IF NOT EXISTS dept_manager
 (
     dept_no VARCHAR(20) NOT NULL,
-    emp_no INTEGER NOT NULL,
+    emp_no INTEGER NOT NULL UNIQUE,
     PRIMARY KEY(dept_no, emp_no)
 );
 
@@ -87,6 +87,4 @@ ALTER TABLE dept_manager
     REFERENCES departments(dept_no)
     MATCH SIMPLE
 ;
-    
-
--- Create Indexes
+ 
