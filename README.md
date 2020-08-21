@@ -23,7 +23,7 @@ The ERD of the Employee database appears here:
 Using GenMyModel's SQL generator for PostreSQL, the SQl code to define the tables, columns, and their relationships was generated and checked for completeness and accuracy, before being exported and prepared for use in the pgAdmin tool.  
 
 The schema.sql file can be found in the sql subfolder here: 
-![schema](EmployeeSQL/sql/schema.sql)
+[schema](EmployeeSQL/sql/schema.sql)
 
 1. A database was created name Employees
 2. The schema script was run to create the tables, their columns, and all foreign key constraints.
@@ -35,4 +35,4 @@ The schema.sql file can be found in the sql subfolder here:
 ### Data Analysis:
 
 With the database fully loaded, the data analysis was completed using the queries that appear in the DataAnalys.sql file in the sql subfolder. A link to the sql file with the questions the code answers and the code can be found here.
-![DataAnalysis.sql](EmployeeSQL/sql/DataAnalysis.sql)
+[DataAnalysis](EmployeeSQL/sql/DataAnalysis.sql)
