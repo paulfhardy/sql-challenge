@@ -43,7 +43,14 @@ A link to the sql file containing the SELECT statements and the questions the co
 The relavent database tables were imported into pandas dataframes and a histogram and barchart were generated.  Links to all of these objects appear below:
 
 1.  Jupyter Notebook with all code to import, clean, and generate the plots: [Jupyter Notebook](EmployeeSQL/BonusAnalysis.ipynb)
-2.  Histogram of Salaries for the employee database: ![Salary Histogram](EmployeeSQL/plots/salary_histogram.png)
+2.  Histogram of Salaries for the employee database: ![Salary Histogram](EmployeeSQL/plots/salary_histogram.png) 
+    * The plot revealed the highest number of employess had salaries between 40,000 and 50,000, with decreasing numbers of employees in each subsequent range.
+    * The Mean Salary is: $52,970.73
+    * The Median Salary is: $48,681.00, a line was drawn on the plot to indicate the Median Salary.
 3.  A bar chart of Average Salary by Title: ![Average Salary by Title](EmployeeSQL/plots/average_salary_by_title.png)
+    * This chart revealed that the average salary for all titles was within the high 40,000 to low 50,000 range, with the exception of titles that contained "Staff", where the average salary was in the high 50,000 range.
+
+____________________________________________________________________________________________________________________________
+
 
 
