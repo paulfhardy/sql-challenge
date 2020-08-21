@@ -38,3 +38,12 @@ With the database fully loaded, the data analysis was completed using the querie
 A link to the sql file containing the SELECT statements and the questions the code answers can be found here: [DataAnalysis](EmployeeSQL/sql/DataAnalysis.sql)
 
 
+### Bonus Analysis:
+
+The relavent database tables were imported into pandas dataframes and a histogram and barchart were generated.  Links to all of these objects appear below:
+
+1.  Jupyter Notebook with all code to import, clean, and generate the plots: [Jupyter Notebook](EmployeeSQL/BonusAnalysis.ipynb)
+2.  Histogram of Salaries for the employee database: ![Salary Histogram](EmployeeSQL/plots/salary_histogram.png)
+3.  A bar chart of Average Salary by Title: ![Average Salary by Title](EmployeeSQL/plots/average_salary_by_title.png)
+
+
