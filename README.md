@@ -18,12 +18,13 @@ The ERD of the Employee database appears here:
    
 3. The **dept_manager** table facilitates the many-to-many relationship between departments and employees who are managers and performs the role of junction table, has a composite key consisting of both the emp_no and dept_no.  In this case, after careful analysis of the data, it was evident that departments can have multiple employees as managers, but the same employess do not appear across multiple departments. Therefor the relationship from departments to dept_manager is one to many, but the relationship from employees to dept_manager is one-to-one and UNIQUE.
 
+
 ### Schema Generation and Loading data into the DB:
 
 Using GenMyModel's SQL generator for PostreSQL, the SQl code to define the tables, columns, and their relationships was generated and checked for completeness and accuracy, before being exported and prepared for use in the pgAdmin tool.  
 
 The schema.sql file can be found in the sql subfolder here: 
-[schema](EmployeeSQL/sql/schema.sql)
+[Schema](EmployeeSQL/sql/schema.sql)
 
 1. A database was created name Employees
 2. The schema script was run to create the tables, their columns, and all foreign key constraints.
@@ -32,7 +33,7 @@ The schema.sql file can be found in the sql subfolder here:
    2. The import process was configured to account for the headers that each csv file contained.
    3. As each table was loaded a SELECT count(*) FROM <table name> was executed to verify that all data was successfully loaded.
 
-### Data Analysis:
 
+### Data Analysis:
 With the database fully loaded, the data analysis was completed using the queries that appear in the DataAnalys.sql file in the sql subfolder. A link to the sql file with the questions the code answers and the code can be found here.
 [DataAnalysis](EmployeeSQL/sql/DataAnalysis.sql)
