@@ -34,4 +34,7 @@ The schema.sql file can be found in the sql subfolder here:
     * As each table was loaded a SELECT count(*) FROM table name was executed to verify that all data was successfully loaded.
 
 ### Data Analysis:
-With the database fully loaded, the data analysis was completed using the queries that appear in the DataAnalys.sql file in the sql subfolder. A link to the sql file with the questions the code answers and the code can be found here.
+With the database fully loaded, the data analysis was completed using the queries that appear in the DataAnalys.sql file in the sql subfolder. 
+A link to the sql file containing the SELECT statements and the questions the code answers can be found here: [DataAnalysis](EmployeeSQL/sql/DataAnalysis.sql)
+
+
