@@ -8,5 +8,5 @@ the data in each csv file was examined to determine the individual column name, 
 This information was used to develop an ERD of the 6 entities, with attributes, and the relationships between the entities.
 
 The ERD of the Employee database appears here:
-![\data diagram\EmployeesDBDatabaseDiagram.png](EmployeesDBDatabaseDiagram.png)
+![..\data diagram\EmployeesDBDatabaseDiagram.png](EmployeesDBDatabaseDiagram.png)
 
